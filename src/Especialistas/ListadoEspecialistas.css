@@ -1,0 +1,72 @@
+.carousel-container {
+  margin: 20px;
+  padding: 0 20px;
+  overflow: visible; 
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-list {
+  overflow: visible; 
+  padding: 0 10px;
+}
+
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 20px;
+  height: 300px; 
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(56, 195, 250, 0.411);
+}
+
+.doctor-card h3 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.doctor-card p {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.atention-days {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.day-chip {
+  background-color: #469cff;
+  color: white;
+  padding: 8px 12px; 
+  border-radius: 15px;
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 180px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
