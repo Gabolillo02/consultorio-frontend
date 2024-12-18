@@ -1,3 +1,5 @@
+// ventana acerca de
+
 import React from "react";
 import { Link } from "react-router-dom";
 
